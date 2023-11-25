@@ -1,0 +1,30 @@
+.transactionHistory{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+thead{
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+tbody{
+    border-collapse: collapse;
+    display: grid;
+    text-transform: capitalize;
+    text-align: center;
+}
+th, td{
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+}
+td{
+    border: solid 1px gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,40 @@
+.profile {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.description {
+  align-content: center;
+  display: grid;
+  justify-items: center;
+  padding-top: 20px;
+  width: 200px;
+}
+.avatar {
+  border-radius: 50%;
+}
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.stats {
+  gap: 25px;
+  list-style: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+  background-color: lavender;
+}
+
+.quantity {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+}
+.tag {
+  margin: 0 auto;
+}
+.location {
+  margin: 15 auto;
+}
